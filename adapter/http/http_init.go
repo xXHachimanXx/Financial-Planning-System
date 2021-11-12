@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/xXHachimanXx/Financial-Planning-System.git/src/adapter/http/actuator"
-	"github.com/xXHachimanXx/Financial-Planning-System.git/src/adapter/http/transaction"
+	"github.com/xXHachimanXx/Financial-Planning-System.git/adapter/http/actuator"
+	"github.com/xXHachimanXx/Financial-Planning-System.git/adapter/http/transaction"
 )
 
 func Init() {

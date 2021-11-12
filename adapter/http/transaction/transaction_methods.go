@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/xXHachimanXx/Financial-Planning-System.git/src/model/transaction"
+	"github.com/xXHachimanXx/Financial-Planning-System.git/model/transaction"
 )
 
 var transactions = transaction.Transactions{}
