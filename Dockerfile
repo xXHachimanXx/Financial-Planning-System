@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN CGO_ENABLED=0 go build -v -a -installsufix cgo -o finance ./cmd/server
+RUN CGO_ENABLED=0 go build -v -a -installsuffix cgo -o finance ./cmd/server
 
 EXPOSE 8080
 

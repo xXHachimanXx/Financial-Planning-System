@@ -1,6 +1,6 @@
 package main
 
-import "github.com/xXHachimanXx/Financial-Planning-System.git/src/adapter/http"
+import "github.com/xXHachimanXx/Financial-Planning-System.git/adapter/http"
 
 func main() {
 
